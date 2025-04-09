@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set background color for the whole page */
+body {
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Container for the entire app */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  /* Style for the chat section */
+  .chat-container {
+    flex-grow: 1;
+    overflow-y: auto; /* Enable scrolling within the chat area */
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Style for the input section */
+  .input-container {
+    padding: 20px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the input field (larger text area) */
+  .text-input {
+    width: 80%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    max-height: 150px; /* You can adjust the height as needed */
+    resize: none; /* Disables resizing of the text area */
+  }
+  
+  /* Logo style */
+  .logo {
+    width: 150px; /* Adjust the logo size as needed */
+    margin-bottom: 20px;
+  }
+  
+  /* Subtitle style */
+  .subtitle {
+    font-size: 18px;
+    color: #0f0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
