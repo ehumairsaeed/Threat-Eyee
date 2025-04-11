@@ -91,4 +91,4 @@ MIT © 2025 Umair Saeed
 
 ## ✨ Credits
 
-Made with ❤️ by a cybersecurity enthusiast during the **HACKHAZARDS ‘25** hackathon.
+Made with ❤️ by a cybersecurity enthusiast 
